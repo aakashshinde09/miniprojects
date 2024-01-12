@@ -15,7 +15,7 @@
 				<form action="${pageContext.request.contextPath }/handle-product"
 					method="post">
 
-					<input class="" type="hidden" name="id" value="${product.id }">
+					<input type="hidden" name="id" value="${product.id }">
 					<div class="form-group">
 						<label for="name">Product Name</label> <input type="text"
 							class="form-control" id="name" aria-describedby="emailHelp"
